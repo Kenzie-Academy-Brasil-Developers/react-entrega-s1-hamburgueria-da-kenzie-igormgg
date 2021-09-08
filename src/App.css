@@ -1,0 +1,75 @@
+:root {
+}
+
+html {
+  background-color: rgb(212, 212, 212);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.mainBox {
+}
+
+.mainBox__search {
+  margin-top: 50px;
+}
+
+.mainBox__menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mainBox__menu ul {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.mainBox__menu li {
+  list-style-type: none;
+}
+
+.mainBox__chart {
+  padding: 10px;
+  border: 2px solid black;
+  margin: 7px;
+}
+
+.mainBox__chart ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.mainBox__chart ul div {
+  padding: 10px;
+  border: 2px solid black;
+  width: 100px;
+  margin: 0px 5px;
+}
+
+.mainBox__chart li {
+  list-style-type: none;
+}
+
+.mainBox__price {
+  border: 2px solid black;
+  margin: 7px;
+  padding-bottom: 10px;
+}
+
+button {
+  border: none;
+}
